@@ -12,5 +12,5 @@ docker run --rm --interactive --tty \                                           
 --volume $PWD:/app \
 composer require lennon95/fastpay-client
 ```
-E utilizar tal como feito no [arquivo das rotas básicas](routes/web.php)
+E utilizar tal como feito no [arquivo das rotas básicas](routes/web.php#L26)
 

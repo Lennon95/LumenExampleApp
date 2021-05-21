@@ -14,9 +14,14 @@
 */
 
 use Fastpay\Client\APIClient;
+use Illuminate\Http\Request;
 
-$router->get('/', function () use ($router) {
+$router->get('/', function (Request $request) use ($router) {
     /** @var APIClient $fastpayApiClient */
     $fastpayApiClient = app(APIClient::class);
-    return $fastpayApiClient->consultarVendas([]);
+    try {
+        return $fastpayApiClient->consultarVendas($_GET);
+    } catch (\InvalidArgumentException $exception) {
+        return $exception->getMessage();
+    }
 });

@@ -5275,12 +5275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lennon95/FastpayClient.git",
-                "reference": "13620bd47633c8dd04124b69c18556d64cdb620f"
+                "reference": "26da6cffbdecad4e5fe33bb0ea43b83e2f1bc01f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lennon95/FastpayClient/zipball/13620bd47633c8dd04124b69c18556d64cdb620f",
-                "reference": "13620bd47633c8dd04124b69c18556d64cdb620f",
+                "url": "https://api.github.com/repos/Lennon95/FastpayClient/zipball/26da6cffbdecad4e5fe33bb0ea43b83e2f1bc01f",
+                "reference": "26da6cffbdecad4e5fe33bb0ea43b83e2f1bc01f",
                 "shasum": ""
             },
             "require": {
@@ -5317,7 +5317,7 @@
                 "issues": "https://github.com/Lennon95/FastpayClient/issues",
                 "source": "https://github.com/Lennon95/FastpayClient/tree/main"
             },
-            "time": "2021-05-21T19:59:18+00:00"
+            "time": "2021-05-21T20:24:23+00:00"
         },
         {
             "name": "mockery/mockery",

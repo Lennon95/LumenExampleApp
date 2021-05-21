@@ -13,6 +13,10 @@
 |
 */
 
+use Fastpay\Client\APIClient;
+
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    /** @var APIClient $fastpayApiClient */
+    $fastpayApiClient = app(APIClient::class);
+    return $fastpayApiClient->consultarVendas([]);
 });
